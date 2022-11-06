@@ -60,7 +60,7 @@ p{
 	font-size: 16px;
 	line-height: 24px;
 }
-button{
+.button1 button{
 	width: 170px;
 	height: 60px;
 	margin-top: 442px;
@@ -264,23 +264,24 @@ button{
 }
 #sec3{
 	background: #FFFFFF;
+	width: 100%;
 }
 .blue{
-	display: grid;
-	grid-template-columns: 1fr 1fr;
+	display: inline-flex;
+	flex-direction: row;
 	border: none;
-	/*text-align: center;*/
-	width: 700px;
+	width: 906px;
 	height: 225px;
-	margin-top: 50px;
-	margin-left:50px ;
+	margin-top: 101px;
+	margin-left:267px;
+	margin-right: 267px;
 	background: #4225B6;
 	border-radius: 30px;
 }
 .text {
 	width: 277px;
 	height: 64px;
-	padding-top: 88px;
+	margin-top: 88px;
 	margin-left: 74px;
 	font-family: 'Bebas Neue';
 	font-size: 64px;
@@ -288,15 +289,25 @@ button{
 	line-height: 64px;
 	color: #FFFFFF;
 }
-.button1{
-	width: 134px;
-	height: 60px;
-	margin-top: 85px;
-	margin-left: 705px;
-	margin-right: 67px;
-	border-radius:6px;
-	color: #FFFFFF;
-	background: #FF8063;
-	border: none;
-	display: inline-block;
+
+.btn-1{
+    text-align: center;
+    margin-left: 354px;
+    margin-top: 85px;
+    width: 134px;
+    height: 60px;
+    border-radius:6px;
+   
+    background: #FF8063;
+    border: none;
 }
+.XYZ{
+	color: #FFFFFF;
+	width:70px;
+	height: 24px;
+	font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 60px;
+}
+
