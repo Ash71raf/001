@@ -142,7 +142,6 @@ p{
 }
 .box {
 	display: flex;
-	
 }
 .EA{
 	border:none;
@@ -158,8 +157,8 @@ p{
 .EA img{
 	width: 343.54px;
 	height: 213.23px;
-	margin-top: 15px;
-	margin-left: 0px;
+	padding-top: 15px;
+	padding-left: 13px;
 	text-align: center;	
 }
 .EA h3{
@@ -277,6 +276,7 @@ p{
 	margin-right: 267px;
 	background: #4225B6;
 	border-radius: 30px;
+	
 }
 .text {
 	width: 277px;
@@ -310,4 +310,50 @@ p{
     font-size: 16px;
     line-height: 60px;
 }
+.stay p{
+	text-align: center;
+	width: 123px;
+	height: 24px;
+	margin-left: 659px;
+	margin-top: 93px;
+	font-family: 'Bebas Neue';
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 24px;
+	color: #696871;
 
+}
+.hello p{
+	text-align: center;
+	width: 301px;
+	height: 42px;
+	margin-top: 133px;
+	margin-left:570px;
+	font-family: 'Roboto';
+	font-weight: 700;
+	font-size:  36px;
+	line-height: 42.19px;
+	color: #363958;
+}
+.footer{
+	display: flex;
+}
+.FA img{
+	width: 40px;
+	height: 40px;
+	margin-left: 635px;
+	margin-top: 198px;
+}
+.FB img{
+	width: 40px;
+	height: 40px;
+	margin-left: 27px;
+	margin-top: 198px;
+	margin-bottom: 81px;
+}
+.FC img{
+	width: 36.04px;
+	height: 36px;
+	margin-left: 27px;
+	margin-top: 200px;
+}
